@@ -1,0 +1,14 @@
+[corpus]
+root = "rules_build_rules_mob_rules"
+
+[output]
+dir           = "out"
+sqlite_file   = "pact5-build-rules.sqlite"
+rocks_dir     = "pact5-build-rules.rocks"
+manifest_file = "pact5-build-rules.manifest.json"
+
+[rocks]
+compression = "zstd"
+bloom_bits = 10.0
+write_buffer_mb = 256
+max_write_buffers = 4
